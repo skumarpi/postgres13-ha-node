@@ -29,7 +29,7 @@ properties:
     POSTGRESQL_CONNECTIONDB: postgres
     POSTGRESQL_PORT: 5432
     POSTGRES_MONITOR_HA: False
-    POSTGRES_MONITOR_URL: postgres://autoctl_node@10.1.37.171:5432/pg_auto_failover?sslmode=require
+    POSTGRES_MONITOR_URL: postgres://autoctl_node@10.1.37.173:5432/pg_auto_failover?sslmode=require
     POSTGRESQL_PASSWORD: 
       vault: POSTGRESQL_PASSWORD
     POSTGRESQL_SPRINGBOOTWEB_PASSWORD:
